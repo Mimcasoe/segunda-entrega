@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: #4e5dab;
+}
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.navmenu ul{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400
+}
+
+.conaside {
+    background-color: #4e5dab;
+    height: 80vh;
+}
+
+.asicol, a {
+    color: #bdbdbd;
+    font-size: x-large;
+}
+
+.forcon{
+    color: whitesmoke;
+    background-color: #4e5dab;
+    width: 400px;
+    height: 80px;
+    box-shadow: 7px 13px 37px #4e5dab;
+}

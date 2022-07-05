@@ -1,0 +1,182 @@
+/*
+Colores:
+gris: #bdbdbd
+azul: 4e5dab
+
+fuentes:
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:hover {
+    background: #4e5dab;
+    transition-duration: 1ms;
+    
+}
+
+h3 {
+    color: #4e5dab;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: xx-large;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Segmento Cabecera */
+.cajacabeza {
+    display: flex;
+    width: 100wh;
+    height: 10vh;
+    margin: 2px;
+    padding: 5px;
+}
+
+.navmenu {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+.navmenu ul{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.navmenu li {
+    display: inline;
+    /*padding: 20px 60px;*/
+    font-size: 18px;
+    text-align: right;
+
+}
+
+/*Segmento Main*/
+.cajamain{
+    display: flex;
+    width: 100wh;
+    height: 78vh;
+    margin: 2px;
+    padding: 5px;
+}
+
+.imgiz {
+   
+    width: 32%;
+    height: 99%;
+    margin: 1px;
+}
+
+.grid-container {
+    display: grid;
+    /*Filas*/
+    grid-template-rows: repeat(7 14%);
+    /*Columnas*/
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+}
+ 
+.contac {
+    display: grid;
+    /*Filas*/
+    grid-template-rows: repeat(7 14%);
+    /*Columnas*/
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid;
+    gap: 3px;
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+}
+
+.concen {    
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+    word-break: break-all;
+}
+
+.forcon{
+    color: whitesmoke;
+    background-color: #4e5dab;
+    width: 400px;
+    height: 50px;
+    box-shadow: 7px 13px 37px #4e5dab;
+}
+.conaside {
+    background-color: #4e5dab;
+    width: 15%;
+    height: 97%;
+    margin: 1px;
+    padding: 10px;
+}
+
+.asicol, a {
+    color: #bdbdbd;
+    font-size: xx-large;
+}
+
+.conaside ul {
+    list-style: none;
+}
+
+
+
+/*Segmento Footer*/
+
+.cajafooter{
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    width: 100wh;
+    height: 7vh;
+    margin: 2px;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    text-align: center;
+    color: #bdbdbd;
+    font-size: x-large;
+}
